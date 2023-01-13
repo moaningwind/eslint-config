@@ -1,0 +1,22 @@
+{
+  "name": "@moaningwind/eslint-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/moaningwind/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@moaningwind/eslint-config-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
+}

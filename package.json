@@ -1,0 +1,15 @@
+{
+  "name": "@moaningwind/eslint-config-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.21.0",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r run test"
+  },
+  "devDependencies": {
+    "@moaningwind/eslint-config": "workspace:*",
+    "eslint": "^8.29.0"
+  }
+}
